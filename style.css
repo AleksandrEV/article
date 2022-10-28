@@ -1,0 +1,21 @@
+.body {
+   background-color: white;
+   margin: 0 auto;
+   width: auto;
+} 
+.nav {
+   display: grid;
+}
+.nav-bar li {
+   display: inline-flex;
+}
+li {
+   justify-content: flex-end;
+}
+.main {
+   margin: 0 auto;
+   width: 752px;
+}
+.logo {
+   width: auto;
+}
