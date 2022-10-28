@@ -2,13 +2,23 @@
    background-color: white;
    margin: 0 auto;
    width: auto;
-} 
-.nav {
-   display: grid;
 }
+
+.nav-bar {
+   display: flex;
+   padding: 0;
+   margin: 0;
+}
+
 .nav-bar li {
-   display: inline-flex;
+   list-style: none;
+   margin-right: 32px;
 }
+
+.nav-bar li:last-child {
+   margin-right: 0;
+}
+
 li {
    justify-content: flex-end;
 }
@@ -18,4 +28,24 @@ li {
 }
 .logo {
    width: auto;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 52px;
+}
+
+.header-main {
+   display: flex;
+}
+
+.header-btn {
+   margin-left: 40px;
+}
+
+.container {
+   width: 1280px;
+   margin: 0 auto;
 }
