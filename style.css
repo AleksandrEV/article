@@ -1,21 +1,79 @@
-.body {
-   background-color: white;
+.conteiner {
+   max-width: 1280px;
    margin: 0 auto;
-   width: auto;
-} 
-.nav {
-   display: grid;
-}
-.nav-bar li {
-   display: inline-flex;
-}
-li {
-   justify-content: flex-end;
+   font-family: 'Poppins', sans-serif;
 }
 .main {
-   margin: 0 auto;
-   width: 752px;
+   background-color: white;
+} 
+.header {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 28px;
+   align-items: center;
+   margin-bottom: 112px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
 }
-.logo {
-   width: auto;
+.nav {
+   display: flex;
+}
+.nav-bar {
+   display: flex;
+   list-style-type: none;
+}
+.nav-bar li {
+   margin-right: 32px;
+}
+.nav-bar li:last-child {
+   margin-right: 40px;
+}
+.center {
+   display: flex;
+   justify-content: flex-end;
+}
+.profile {
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   max-width: 752px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 32px;
+   align-items: center;
+}
+.profile p {
+   margin: 0;
+}
+.profile img {
+   margin-right: 8px;
+}
+.profile-name {
+   display: flex;
+   margin-right: 24px;
+}
+.photo {
+   max-width: 1280px;
+   margin-bottom: 80px;
+}
+h1 {
+   font-size: 64px;
+   font-weight: 600;
+   line-height: 72px;
+   letter-spacing: -3%;
+}
+h2 {
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 56px;
+   letter-spacing: -3%;
+}
+.text {
+   margin-top: 24px;
+   max-width: 752px;
+   margin: 0 auto;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
 }

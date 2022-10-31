@@ -5,25 +5,39 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
    <title>Document</title>
 </head>
-<body class="body">
-   <head>
-      <nav class="nav">
-         <a class="logo"><img src="img/Logo.svg"></a>
-         <ul class="nav-bar">
-            <li>About us</li>
-            <li>Careers</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact us</li>
-            <li>Clone project</li>
-         </ul>
-      </nav>
-   </head>
-   <main class="main">
+<div class="conteiner">
+<body class="main">
+   <header class="header">
+      <a class="logo"><img height="28px" src="img/Logo.svg"></a>
+      <div class="center">
+         <nav class="nav">
+            <ul class="nav-bar">
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Careers</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">Contact us</a></li>
+            </ul>
+         </nav>
+         <button>Clone project</button>
+      </div>
+   </header>
+   <main class="center-post">
       <img class="photo" src="img/Картинка статья.png">
-      <img src="img/Фото профиля.png">
+      <div class="profile">
+         <div class="profile-name">
+            <a class="profile" href="#"><img width="32px" height="32px" src="img/Фото профиля.png">
+            <p>Andrew Jonson</p></a>
+         </div>
+         
+         <p>Posted on 27th January 2021</p>
+      </div>
+      <div class="text">
       <h1>Breaking the code How did we build our Figma plugin</h1>
       <p>Writing UX copies can be a little frustrating and confusing, 
          and sometimes we are unsure about how to get the right word. 
@@ -63,7 +77,9 @@
          and categorized with a voice and tone variation ranging from plain, casual to 
          playful. The intention to build this Figma plugin originated from our Medium blog post, 
          ‘Designing voice.</p>
+      </div> 
    </main>
    <footer></footer>
 </body>
+</div>
 </html>
