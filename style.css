@@ -1,23 +1,17 @@
 .conteiner {
    max-width: 1280px;
    margin: 0 auto;
-   font-family: 'Poppins', sans-serif;
 }
-.main {
-   background-color: white;
-} 
 .header {
    display: flex;
    justify-content: space-between;
    margin-top: 28px;
    align-items: center;
    margin-bottom: 112px;
-   font-size: 16px;
-   font-weight: 600;
-   line-height: 24px;
 }
 .nav {
    display: flex;
+   margin-right: 40px;
 }
 .nav-bar {
    display: flex;
@@ -27,52 +21,60 @@
    margin-right: 32px;
 }
 .nav-bar li:last-child {
-   margin-right: 40px;
+   margin-right: 0px;
 }
 .center {
    display: flex;
-   justify-content: flex-end;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
 }
 .profile {
    display: flex;
    margin: 0 auto;
    align-items: center;
-   max-width: 752px;
    font-size: 16px;
    font-weight: 400;
    line-height: 32px;
-   align-items: center;
 }
-.profile p {
+.profile nav {
    margin: 0;
 }
 .profile img {
    margin-right: 8px;
 }
 .profile-name {
-   display: flex;
    margin-right: 24px;
 }
 .photo {
    max-width: 1280px;
    margin-bottom: 80px;
 }
-h1 {
+.attan {
+   max-width: 752px;
+   margin: 0 auto;
+}
+.text {
+   margin-top: 24px;
+}
+.myh1 {
+   font-family: 'Poppins' sans-serif;
    font-size: 64px;
    font-weight: 600;
    line-height: 72px;
    letter-spacing: -3%;
+   margin: 0;
+   margin-bottom: 32px;
 }
-h2 {
+.myh2 {
    font-size: 48px;
    font-weight: 600;
    line-height: 56px;
    letter-spacing: -3%;
+   font-family: 'Poppins' sans-serif;
 }
-.text {
-   margin-top: 24px;
-   max-width: 752px;
-   margin: 0 auto;
+p {
+   font-family: 'Poppins' sans-serif;
    font-size: 16px;
    font-weight: 500;
    line-height: 28px;
