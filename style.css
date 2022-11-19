@@ -115,7 +115,7 @@ body {
  max-width: 1920px;
  max-height: 463px;
  background-color: #063255;
- margin: 0;
+ margin-top: 128px;
  position: relative;
  }
  .footer0 {
@@ -251,15 +251,25 @@ body {
  margin-left: 32px;
  color: white;
  }
- .palka1 {
- position: absolute;
- bottom: 0;
- }
- .palka2 {
- position: absolute;
- right: 0;
- top: 38px;
- }
  .white {
   color: white;
+ }
+ .footer-size::before {
+  content: '';
+  position: absolute;
+  width: 53px;
+  height: 287px;
+  background-color: #F58A07;
+  right: 0;
+  top: 38px;
+  border-radius: 20px 0 0 20px;
+ }
+ .footer-size::after {
+  content: '';
+  position: absolute;
+  width: 53px;
+  height: 144px;
+  background-color: #F58A07;
+  bottom: 0;
+  border-radius: 0 20px 0 0;
  }
