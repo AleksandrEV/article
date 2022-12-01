@@ -116,6 +116,12 @@ body {
  margin-top: 128px;
  position: relative;
  }
+ .flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 80px;
+ }
  .footer-main {
  display: flex;
  justify-content: space-between;
@@ -250,6 +256,11 @@ margin-bottom: 0px;
  line-height: 106.5%;
  text-transform: capitalize;
  color: white;
+ transition: 0.3s ease all;
+ }
+ .subscribe:hover {
+  transform: scale(5);
+  background: #aaff00;
  }
  .help {
  margin-left: 32px;
